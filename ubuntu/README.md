@@ -7,28 +7,28 @@ To install "the seed" of the Ubuntu distro tools, run:
 ### This script should be run via curl
 
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ixicale/tools/main/ubuntu/setup.sh)";
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ixicale/scripts.tools/main/ubuntu/setup.sh)";
 
 ```
 
 ### By wget
 
 ```bash
-sh -c "$(wget -qO- https://raw.githubusercontent.com/ixicale/tools/main/ubuntu/setup.sh)";
+sh -c "$(wget -qO- https://raw.githubusercontent.com/ixicale/scripts.tools/main/ubuntu/setup.sh)";
 
 ```
 
 ### By fetch
 
 ```bash
-sh -c "$(fetch -o - https://raw.githubusercontent.com/ixicale/tools/main/ubuntu/setup.sh)";
+sh -c "$(fetch -o - https://raw.githubusercontent.com/ixicale/scripts.tools/main/ubuntu/setup.sh)";
 
 ```
 
 ### Other methods
 
 ```bash
-wget https://raw.githubusercontent.com/ixicale/tools/main/ubuntu/setup.sh;
+wget https://raw.githubusercontent.com/ixicale/scripts.tools/main/ubuntu/setup.sh;
 sh setup.sh;
 
 ```

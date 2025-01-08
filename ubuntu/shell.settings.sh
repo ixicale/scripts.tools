@@ -124,7 +124,7 @@ function pull_repos() {
 function sudo_update() { sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y; }
 function reload_this_file () {
     tmp_file="/tmp/shell.settings.sh"
-    curl -fsSL https://raw.githubusercontent.com/ixicale/tools/main/ubuntu/shell.settings.sh > $tmp_file
+    curl -fsSL https://raw.githubusercontent.com/ixicale/scripts.tools/main/ubuntu/shell.settings.sh > $tmp_file
     # if tmp_file is not empty, update SHELL_FILE
     if [[ -s "$tmp_file" ]]; then
         mv $tmp_file $SHELL_FILE

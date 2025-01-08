@@ -7,28 +7,28 @@ To install "the seed" of the macOs distro tools, run:
 ### This script should be run via curl
 
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ixicale/tools/main/macOs/setup.sh)";
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ixicale/scripts.tools/main/macOs/setup.sh)";
 
 ```
 
 ### By wget
 
 ```bash
-sh -c "$(wget -qO- https://raw.githubusercontent.com/ixicale/tools/main/macOs/setup.sh)";
+sh -c "$(wget -qO- https://raw.githubusercontent.com/ixicale/scripts.tools/main/macOs/setup.sh)";
 
 ```
 
 ### By fetch
 
 ```bash
-sh -c "$(fetch -o - https://raw.githubusercontent.com/ixicale/tools/main/macOs/setup.sh)";
+sh -c "$(fetch -o - https://raw.githubusercontent.com/ixicale/scripts.tools/main/macOs/setup.sh)";
 
 ```
 
 ### Other methods
 
 ```bash
-wget https://raw.githubusercontent.com/ixicale/tools/main/macOs/setup.sh;
+wget https://raw.githubusercontent.com/ixicale/scripts.tools/main/macOs/setup.sh;
 sh setup.sh;
 
 ```

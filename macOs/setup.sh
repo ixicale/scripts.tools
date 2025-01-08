@@ -2,14 +2,14 @@
 # Script to download my initial stuff
 #
 # This script should be run via curl:
-#   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ixicale/tools/main/macOs/setup.sh)"
+#   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ixicale/scripts.tools/main/macOs/setup.sh)"
 # or via wget:
-#   sh -c "$(wget -qO- https://raw.githubusercontent.com/ixicale/tools/main/macOs/setup.sh)"
+#   sh -c "$(wget -qO- https://raw.githubusercontent.com/ixicale/scripts.tools/main/macOs/setup.sh)"
 # or via fetch:
-#   sh -c "$(fetch -o - https://raw.githubusercontent.com/ixicale/tools/main/macOs/setup.sh)"
+#   sh -c "$(fetch -o - https://raw.githubusercontent.com/ixicale/scripts.tools/main/macOs/setup.sh)"
 #
 # As an alternative, you can first download the install script and run it afterwards:
-#   wget https://raw.githubusercontent.com/ixicale/tools/main/macOs/setup.sh
+#   wget https://raw.githubusercontent.com/ixicale/scripts.tools/main/macOs/setup.sh
 #   sh setup.sh
 # 
 DOWNLOAD_CONTAINER="$HOME/.xide";
@@ -78,9 +78,9 @@ setup_package_to_install() {
 download_seed(){
     create_main_container;
     cd "$DOWNLOAD_CONTAINER";
-    curl -O https://raw.githubusercontent.com/ixicale/tools/main/theme/xide.zsh-theme;
-    curl -O https://raw.githubusercontent.com/ixicale/tools/main/ubuntu/shell.settings.sh;
-    curl -O https://raw.githubusercontent.com/ixicale/tools/main/ubuntu/shell.colors.sh;
+    curl -O https://raw.githubusercontent.com/ixicale/scripts.tools/main/theme/xide.zsh-theme;
+    curl -O https://raw.githubusercontent.com/ixicale/scripts.tools/main/ubuntu/shell.settings.sh;
+    curl -O https://raw.githubusercontent.com/ixicale/scripts.tools/main/ubuntu/shell.colors.sh;
 }
 setup_oh_my_zsh(){
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)";
